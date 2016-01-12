@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Stankec/TINF.svg)](https://travis-ci.org/Stankec/TINF)
+
 # Laboratory exercise for TINF
 
 'Theory of information' or TINF for short is a subject at
