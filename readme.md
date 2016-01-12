@@ -13,8 +13,7 @@ Four information souces are provided `i1`, `i2`, `i3` and `i4`. Each information
 source can be individually compiled and run to get an information stream on
 STDOUT.
 
-Taska:
-
+Tasks:
 1. Draw the propability distribution of symbols and calculate thair entropy.
 2. Draw the propability distribution of occurances of symbols 2, 4 and 8 together. Observe the difference betwene each source. Which source is most sutable for compression?
 3. Compare your results with the [ZIP compression algorythm](http://www.wikiwand.com/en/Zip_(file_format)) and write your observations in a table.
@@ -27,6 +26,7 @@ as possible.
 #### 2.1 Huffman's method
 
 The Huffman compression method needs to be implemented.
+
 The coder should open the input fily as binary and map the occurance of each
 possible byte and write it to a text file.
 The coder uses the generated occurance table and uses it to copress the data.
@@ -51,12 +51,10 @@ ls -alGh
 ```
 
 Task:
-
 1. What's the time complexity of assigning codes to a set of N symbols. If N = 256 what's the complexity of of compressing a file of M bytes?
 
 #### 2.2 LZW method
 
 It's necessary to implement the LZW compression algorythm.
 
-
-
+The coder reads th einput file byte by btye and builds a dictionary.
