@@ -142,3 +142,8 @@ transmitted image first.
 Task:
 
 1. How much did the size vary? Did data protection prevent the data getting coruppted?
+
+## Running
+
+## Testing
+
