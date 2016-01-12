@@ -27,14 +27,10 @@ as possible.
 #### 2.1 Huffman's method
 
 The Huffman compression method needs to be implemented.
-
 The coder should open the input fily as binary and map the occurance of each
 possible byte and write it to a text file.
-
 The coder uses the generated occurance table and uses it to copress the data.
-
 The algorythm should be implemented in the `huffkoder.c` file.
-
 A decoder alos has to be implemented in the `huffdekoder.c` file.
 
 Expected call:
@@ -53,4 +49,14 @@ huffdekoder table.txt compressed.dat re_uncompressed.dat
 ls -alGh
 # Returns uncompressed.dat, compressed.dat, table.txt and re_uncompressed.dat
 ```
+
+Task:
+
+1. What's the time complexity of assigning codes to a set of N symbols. If N = 256 what's the complexity of of compressing a file of M bytes?
+
+#### 2.2 LZW method
+
+It's necessary to implement the LZW compression algorythm.
+
+
 
