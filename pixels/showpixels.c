@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-#include <cv.h>
-#include <highgui.h>
+#include <opencv/cv.h>
+#include <opencv/highgui.h>
 
 /*
-	
+
 */
 
 int ucitaj(char* polje[], int n, const char* put)
@@ -33,7 +33,7 @@ int ucitaj(char* polje[], int n, const char* put)
 }
 
 /*
-	
+
 */
 
 int main(int argc, char* argv[])
@@ -47,7 +47,7 @@ int main(int argc, char* argv[])
 		printf("\t- putanja do piksela\n");
 		printf("\t- visina slike\n");
 		printf("\t- sirina slike\n");
-		
+
 		printf("\n");
 		printf("primjer: prikazipiksele.exe /putanja/do/piksela 480 640\n");
 
