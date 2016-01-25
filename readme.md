@@ -61,8 +61,8 @@ Task:
 
 It's necessary to implement the LZW compression algorythm.
 
-The coder reads th einput file byte by btye and builds a dictionary.
-Set the symbol limit to 65536. The coder's output hav to be 16-bit numbers
+The coder reads the input file byte by btye and builds a dictionary.
+Set the symbol limit to 65536. The coder's output have to be 16-bit numbers
 (unsigned short / uint16_t). The source code must be in the `lzwkoder.c` file.
 A decoder also has to be implemented in the `lzwdekoder.c` file.
 
