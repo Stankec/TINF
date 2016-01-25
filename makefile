@@ -1,6 +1,6 @@
 all: sources
 
-.PHONY: all test clean
+.PHONY: all test clean huffman lzw linbindekoder channel pixels
 
 test:
 
@@ -32,3 +32,7 @@ linearbinarycoder:
 channel:
 	mkdir -p bin
 	$(CC) binsimkanal.c -o bin/binsimkanal
+
+pixels:
+	mkdir -p bin/pixels
+	$(CC) pixels/showpixels.c -I /uer/include/opencv -lopencv_highgui -lopencv_core -lopencv_imgproc -o bin/pixels/showpixels
