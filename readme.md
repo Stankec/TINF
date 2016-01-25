@@ -149,3 +149,6 @@ Task:
 
 ## Testing
 
+## Credits
+
+* [Trie implementation in C](http://stackoverflow.com/questions/3323117/tries-data-structure-implementation-application-dictionary)
