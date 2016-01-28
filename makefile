@@ -22,7 +22,7 @@ huffman:
 lzw:
 	mkdir -p bin
 	$(CC) lzwkoder.c -o bin/lzwkoder
-	$(CC) lzwdekoder.c -o bin/lzwdekoder
+	# $(CC) lzwdekoder.c -o bin/lzwdekoder
 
 linearbinarycoder:
 	mkdir -p bin
@@ -36,3 +36,11 @@ channel:
 pixels:
 	mkdir -p bin/pixels
 	$(CC) pixels/showpixels.c -I /uer/include/opencv -lopencv_highgui -lopencv_core -lopencv_imgproc -o bin/pixels/showpixels
+
+code.o:
+	mkdir -p bin/utils
+	$(CC) -c utils/code.c -o bin/utils/code.o
+
+trie.o: code.o
+	mkdir -p bin/utils
+	$(CC) -c utils/trie.c -o bin/utils/trie.o bin/utils/code.o
