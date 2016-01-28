@@ -22,7 +22,7 @@ huffman:
 lzw:
 	mkdir -p bin
 	$(CC) lzwkoder.c -o bin/lzwkoder
-	# $(CC) lzwdekoder.c -o bin/lzwdekoder
+	$(CC) lzwdekoder.c -o bin/lzwdekoder
 
 linearbinarycoder:
 	mkdir -p bin

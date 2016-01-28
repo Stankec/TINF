@@ -3,3 +3,4 @@
 *.exe
 /sources/*.txt
 bin/**
+uncrustify.cfg
